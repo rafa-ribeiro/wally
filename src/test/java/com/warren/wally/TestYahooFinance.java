@@ -1,7 +1,8 @@
 package com.warren.wally;
 
 import com.warren.wally.db.WallyTestCase;
-import com.warren.wally.model.DataMarketEquities;
+import com.warren.wally.model.investimento.DataMarketEquities;
+
 import org.junit.Test;
 
 import javax.annotation.Resource;

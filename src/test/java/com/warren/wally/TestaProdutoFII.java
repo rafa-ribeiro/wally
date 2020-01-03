@@ -1,8 +1,8 @@
 package com.warren.wally;
 
 import com.warren.wally.db.WallyTestCase;
-import com.warren.wally.model.ProdutoFIIActor;
-import com.warren.wally.model.ProdutoFIIVO;
+import com.warren.wally.model.investimento.ProdutoFIIActor;
+import com.warren.wally.model.investimento.ProdutoFIIVO;
 import com.warren.wally.repository.MovimentacaoRepository;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

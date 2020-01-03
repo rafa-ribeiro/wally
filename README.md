@@ -1,10 +1,18 @@
 # Wally
 Sistema para controle de investimentos
 
-Ferramentas utilizadas: Spring, MySQL, Bootstrap
+Ferramentas utilizadas: Spring, MySQL5.7, Bootstrap
 
-Criar tabela wally:
+Antes de rodar a aplicação, atualize o application.properties com as configurações do seu banco de dados.
 ```
+db.name=wally
+db.username=root
+db.password=root
+```
+
+Acesse o servidor de banco de dados e crie o banco de dados que será utilizado na aplicação. 
+```
+mysql -u root -p 
 create database wally;
 ```
 

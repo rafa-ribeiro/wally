@@ -33,7 +33,7 @@ public class WallyApplication {
         factoryBean.setJpaVendorAdapter(vendorAdapter);
         factoryBean.setDataSource(dataSource);
         factoryBean.setJpaProperties(aditionalProperties());
-        factoryBean.setPackagesToScan("com.warren.wally.repository");
+        factoryBean.setPackagesToScan("com.warren.wally");
         return factoryBean;
     }
 

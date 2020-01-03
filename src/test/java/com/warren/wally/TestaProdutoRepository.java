@@ -1,8 +1,8 @@
 package com.warren.wally;
 
 import com.warren.wally.db.WallyTestCase;
-import com.warren.wally.model.TipoInvestimento;
-import com.warren.wally.model.TipoRentabilidade;
+import com.warren.wally.model.calculadora.TipoRentabilidade;
+import com.warren.wally.model.investimento.TipoInvestimento;
 import com.warren.wally.repository.ProdutoEntity;
 import com.warren.wally.repository.ProdutoRepository;
 import org.junit.Test;
